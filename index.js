@@ -1,13 +1,23 @@
 class SortedList {
-  constructor() {}
+  constructor() {
+    const object = new Object(items, length)
+    items = [''];
+    length = items.length;
+  }
 
   add(item) {}
 
   get(pos) {}
 
-  max() {}
+  max() {
+    
+    console.log(Math.max(items))
+    
+  }
 
-  min() {}
+  min() {
+    console.log(Math.min(items))
+  }
 
   sum() {}
 
